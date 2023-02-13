@@ -11,11 +11,10 @@ public class AnimalsCage {
     @Qualifier("dog")
     private Animal animal;
     @Autowired
-    @Qualifier("timer2")
-    private Timer2 timer2;
+    private Timer timer;
 
-    public Timer2 getTimer() {
-        return timer2;
+    public Timer getTimer() {
+        return timer;
     }
 
     public void whatAnimalSay() {

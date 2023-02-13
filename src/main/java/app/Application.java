@@ -13,7 +13,7 @@ public class Application {
         for (int i = 0; i < 5; i++) {
             AnimalsCage bean =
                     applicationContext.getBean(AnimalsCage.class);
-            bean.whatAnimalSay();
+            bean.getTimer();
         }
     }
 
